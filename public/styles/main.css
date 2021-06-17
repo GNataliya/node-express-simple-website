@@ -1,0 +1,91 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.promo{
+    height: 35px;
+    background-color: black;
+    text-align: center;
+}
+
+.promo a, footer a{
+    display: inline-block;
+    margin-top: 7px;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 85px;
+    padding-top: 30px;
+}
+
+.baner img{
+    display: block;
+    margin: auto;
+    height: 350px;
+    width: 1120px;
+}
+
+.text{
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.pictures, .content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.picture img{
+    height: 270px;
+    width: 250px;
+    margin: 20px;
+}
+
+.content{
+    width: 250px;
+    margin: 0, 20px;
+}
+.content a{
+    color: black;
+    font-size: 22px;
+}
+
+.main-block{
+    display: flex;
+    margin-top: -340px;
+    margin-bottom: 110px;
+    padding: 70px;
+}
+
+.item, .item-description{
+    display: block;
+    position: relative;
+    height: auto;
+}
+
+.item-description{
+    padding: 120px;
+}
+
+footer{
+    height: 70px;
+    background-color: black;
+    text-align: center;
+  }
+
+footer a{
+    display: block;
+    margin: 5px;
+  }
